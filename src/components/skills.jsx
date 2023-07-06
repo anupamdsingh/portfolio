@@ -1,51 +1,76 @@
 import React from "react";
-// import ReactDOM from "react-dom";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { fab } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-library.add(fab.faHtml5);
-library.add(fab.faCss3Alt);
-library.add(fab.faSquareJs);
-library.add(fab.faReact);
-library.add(fab.faBootstrap);
-
+<style>@import url('https://fonts.cdnfonts.com/css/samarkan');</style>;
 function Skills() {
   return (
-    <div className="flex justify-center items-center flex-col pt-20 ">
+    <div className="flex justify-center items-center flex-col pt-20 w-screen">
       <div className="font-bold text-5xl pb-10">Skills</div>
       <div className="flex flex-col text-5xl text-center text-stone-400 ">
-        <div className="flex flex-row justify-evenly ">
+        <div className="flex flex-row justify-evenly sm:grid-rows-3">
           <div>
             <div>
-              <FontAwesomeIcon
-                icon="fa-brands fa-html5"
-                size="2xl"
-                style={{ color: "#ff5722" }}
-              />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="100"
+                height="100"
+                viewBox="0 0 48 48"
+              >
+                <path
+                  fill="#E65100"
+                  d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"
+                ></path>
+                <path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path>
+                <path
+                  fill="#FFF"
+                  d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z"
+                ></path>
+                <path
+                  fill="#EEE"
+                  d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"
+                ></path>
+              </svg>
             </div>
             <div className="text-2xl font-semibold text-center">HTML</div>
           </div>
           <div>
-            {" "}
             <div>
-              <FontAwesomeIcon
-                icon="fa-brands fa-css3-alt"
-                size="2xl"
-                style={{ color: "#1c8ec9" }}
-              />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 48 48"
+                width="96px"
+                height="96px"
+              >
+                <path fill="#0277BD" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z" />
+                <path fill="#039BE5" d="M24 8L24 39.9 35.2 36.7 37.7 8z" />
+                <path
+                  fill="#FFF"
+                  d="M33.1 13L24 13 24 17 28.9 17 28.6 21 24 21 24 25 28.4 25 28.1 29.5 24 30.9 24 35.1 31.9 32.5 32.6 21 32.6 21z"
+                />
+                <path
+                  fill="#EEE"
+                  d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4L19.8,27z"
+                />
+              </svg>
             </div>
             <div className="text-2xl font-semibold text-center">CSS</div>
           </div>
 
           <div>
-            {" "}
-            <div>
-              <FontAwesomeIcon
-                icon="fa-brands fa-square-js"
-                size="2xl"
-                style={{ color: "#FFD600" }}
-              />{" "}
+            <div className="flex justify-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 48 48"
+                width="96px"
+                height="96px"
+                baseProfile="basic"
+              >
+                <path fill="#f7df1e" d="M6,42V6h36v36H6z" />
+                <path
+                  fill="#000001"
+                  d="M29.538,32.947c0.692,1.124,1.444,2.201,3.037,2.201c1.338,0,2.04-0.665,2.04-1.585 c0-1.101-0.726-1.492-2.198-2.133l-0.807-0.344c-2.329-0.988-3.878-2.226-3.878-4.841c0-2.41,1.845-4.244,4.728-4.244 c2.053,0,3.528,0.711,4.592,2.573l-2.514,1.607c-0.553-0.988-1.151-1.377-2.078-1.377c-0.946,0-1.545,0.597-1.545,1.377 c0,0.964,0.6,1.354,1.985,1.951l0.807,0.344C36.452,29.645,38,30.839,38,33.523C38,36.415,35.716,38,32.65,38 c-2.999,0-4.702-1.505-5.65-3.368L29.538,32.947z M17.952,33.029c0.506,0.906,1.275,1.603,2.381,1.603 c1.058,0,1.667-0.418,1.667-2.043V22h3.333v11.101c0,3.367-1.953,4.899-4.805,4.899c-2.577,0-4.437-1.746-5.195-3.368 L17.952,33.029z"
+                />
+              </svg>
             </div>
             <div className="text-2xl font-semibold text-center">Javascript</div>
           </div>
@@ -53,22 +78,36 @@ function Skills() {
           <div>
             {" "}
             <div>
-              <FontAwesomeIcon
-                icon="fa-brands fa-react"
-                size="2xl"
-                style={{ color: "#5adafd" }}
-              />{" "}
+              <svg
+                height="96"
+                width="96"
+                xmlns="http://www.w3.org/2000/svg"
+                enable-background="new 0 0 128 128"
+                viewBox="0 0 128 128"
+                id="react"
+              >
+                <g fill="#61DAFB">
+                  <circle cx="64" cy="64" r="11.4"></circle>
+                  <path d="M107.3 45.2c-2.2-.8-4.5-1.6-6.9-2.3.6-2.4 1.1-4.8 1.5-7.1 2.1-13.2-.2-22.5-6.6-26.1-1.9-1.1-4-1.6-6.4-1.6-7 0-15.9 5.2-24.9 13.9-9-8.7-17.9-13.9-24.9-13.9-2.4 0-4.5.5-6.4 1.6-6.4 3.7-8.7 13-6.6 26.1.4 2.3.9 4.7 1.5 7.1-2.4.7-4.7 1.4-6.9 2.3-12.5 4.8-19.3 11.4-19.3 18.8s6.9 14 19.3 18.8c2.2.8 4.5 1.6 6.9 2.3-.6 2.4-1.1 4.8-1.5 7.1-2.1 13.2.2 22.5 6.6 26.1 1.9 1.1 4 1.6 6.4 1.6 7.1 0 16-5.2 24.9-13.9 9 8.7 17.9 13.9 24.9 13.9 2.4 0 4.5-.5 6.4-1.6 6.4-3.7 8.7-13 6.6-26.1-.4-2.3-.9-4.7-1.5-7.1 2.4-.7 4.7-1.4 6.9-2.3 12.5-4.8 19.3-11.4 19.3-18.8s-6.8-14-19.3-18.8zm-14.8-30.5c4.1 2.4 5.5 9.8 3.8 20.3-.3 2.1-.8 4.3-1.4 6.6-5.2-1.2-10.7-2-16.5-2.5-3.4-4.8-6.9-9.1-10.4-13 7.4-7.3 14.9-12.3 21-12.3 1.3 0 2.5.3 3.5.9zm-11.2 59.3c-1.8 3.2-3.9 6.4-6.1 9.6-3.7.3-7.4.4-11.2.4-3.9 0-7.6-.1-11.2-.4-2.2-3.2-4.2-6.4-6-9.6-1.9-3.3-3.7-6.7-5.3-10 1.6-3.3 3.4-6.7 5.3-10 1.8-3.2 3.9-6.4 6.1-9.6 3.7-.3 7.4-.4 11.2-.4 3.9 0 7.6.1 11.2.4 2.2 3.2 4.2 6.4 6 9.6 1.9 3.3 3.7 6.7 5.3 10-1.7 3.3-3.4 6.6-5.3 10zm8.3-3.3c1.5 3.5 2.7 6.9 3.8 10.3-3.4.8-7 1.4-10.8 1.9 1.2-1.9 2.5-3.9 3.6-6 1.2-2.1 2.3-4.2 3.4-6.2zm-25.6 27.1c-2.4-2.6-4.7-5.4-6.9-8.3 2.3.1 4.6.2 6.9.2 2.3 0 4.6-.1 6.9-.2-2.2 2.9-4.5 5.7-6.9 8.3zm-18.6-15c-3.8-.5-7.4-1.1-10.8-1.9 1.1-3.3 2.3-6.8 3.8-10.3 1.1 2 2.2 4.1 3.4 6.1 1.2 2.2 2.4 4.1 3.6 6.1zm-7-25.5c-1.5-3.5-2.7-6.9-3.8-10.3 3.4-.8 7-1.4 10.8-1.9-1.2 1.9-2.5 3.9-3.6 6-1.2 2.1-2.3 4.2-3.4 6.2zm25.6-27.1c2.4 2.6 4.7 5.4 6.9 8.3-2.3-.1-4.6-.2-6.9-.2-2.3 0-4.6.1-6.9.2 2.2-2.9 4.5-5.7 6.9-8.3zm22.2 21l-3.6-6c3.8.5 7.4 1.1 10.8 1.9-1.1 3.3-2.3 6.8-3.8 10.3-1.1-2.1-2.2-4.2-3.4-6.2zm-54.5-16.2c-1.7-10.5-.3-17.9 3.8-20.3 1-.6 2.2-.9 3.5-.9 6 0 13.5 4.9 21 12.3-3.5 3.8-7 8.2-10.4 13-5.8.5-11.3 1.4-16.5 2.5-.6-2.3-1-4.5-1.4-6.6zm-24.7 29c0-4.7 5.7-9.7 15.7-13.4 2-.8 4.2-1.5 6.4-2.1 1.6 5 3.6 10.3 6 15.6-2.4 5.3-4.5 10.5-6 15.5-13.8-4-22.1-10-22.1-15.6zm28.5 49.3c-4.1-2.4-5.5-9.8-3.8-20.3.3-2.1.8-4.3 1.4-6.6 5.2 1.2 10.7 2 16.5 2.5 3.4 4.8 6.9 9.1 10.4 13-7.4 7.3-14.9 12.3-21 12.3-1.3 0-2.5-.3-3.5-.9zm60.8-20.3c1.7 10.5.3 17.9-3.8 20.3-1 .6-2.2.9-3.5.9-6 0-13.5-4.9-21-12.3 3.5-3.8 7-8.2 10.4-13 5.8-.5 11.3-1.4 16.5-2.5.6 2.3 1 4.5 1.4 6.6zm9-15.6c-2 .8-4.2 1.5-6.4 2.1-1.6-5-3.6-10.3-6-15.6 2.4-5.3 4.5-10.5 6-15.5 13.8 4 22.1 10 22.1 15.6 0 4.7-5.8 9.7-15.7 13.4z"></path>
+                </g>
+              </svg>
             </div>
             <div className="text-2xl font-semibold text-center">React</div>
           </div>
           <div>
-            {" "}
-            <div>
-              <FontAwesomeIcon
-                icon="fa-brands fa-bootstrap"
-                size="2xl"
-                style={{ color: "#7f10f0" }}
-              />{" "}
+            <div className="flex justify-center">
+              <svg
+                height="96"
+                viewBox="0 0 512 407.864"
+                width="96"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="m106.344 0c-29.214 0-50.831 25.57-49.863 53.3.929 26.641-.278 61.145-8.964 89.283-8.717 28.217-23.449 46.098-47.517 48.393v25.912c24.068 2.3 38.8 20.172 47.516 48.393 8.687 28.138 9.893 62.642 8.964 89.283-.968 27.726 20.649 53.3 49.868 53.3h299.347c29.214 0 50.827-25.57 49.859-53.3-.929-26.641.278-61.145 8.964-89.283 8.717-28.221 23.413-46.1 47.482-48.393v-25.912c-24.068-2.3-38.764-20.172-47.482-48.393-8.687-28.134-9.893-62.642-8.964-89.283.968-27.726-20.645-53.3-49.859-53.3h-299.355zm240.775 251.067c0 38.183-28.481 61.34-75.746 61.34h-80.458a8.678 8.678 0 0 1 -8.678-8.678v-199.593a8.678 8.678 0 0 1 8.678-8.678h80c39.411 0 65.276 21.348 65.276 54.124 0 23.005-17.4 43.6-39.567 47.208v1.2c30.176 3.31 50.495 24.21 50.495 53.077zm-84.519-128.1h-45.876v64.8h38.639c29.87 0 46.34-12.028 46.34-33.527-.003-20.148-14.163-31.273-39.103-31.273zm-45.876 90.511v71.411h47.564c31.1 0 47.573-12.479 47.573-35.931s-16.935-35.484-49.573-35.484h-45.564z"
+                  fill="#7952b3"
+                  fill-rule="evenodd"
+                />
+              </svg>{" "}
             </div>
             <div className="text-2xl font-semibold text-center">Bootstrap</div>
           </div>
@@ -109,7 +148,6 @@ function Skills() {
         </div>
         <div className="flex flex-row gap-x-20 pt-8">
           <div>
-            {" "}
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -215,8 +253,7 @@ function Skills() {
             <div className="text-2xl font-semibold text-center">Python</div>
           </div>
           <div>
-            {" "}
-            <div>
+            <div className="flex justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="96"
@@ -254,8 +291,7 @@ function Skills() {
             <div className="text-2xl font-semibold text-center">C++</div>
           </div>
           <div>
-            {" "}
-            <div>
+            <div className="flex justify-center">
               <svg
                 height="96"
                 width="96"
@@ -291,8 +327,7 @@ function Skills() {
             <div className="text-2xl font-semibold text-center">PostgreSQL</div>
           </div>
           <div>
-            {" "}
-            <div>
+            <div className="flex justify-center">
               <svg
                 height="96"
                 width="96"

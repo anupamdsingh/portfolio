@@ -4,7 +4,7 @@ import React from "react";
 
 function Touch1() {
   return (
-    <div className="flex justify-center items-center flex-col pt-20 text-white">
+    <div className="flex justify-center items-center flex-col pt-20 pb-40 text-white w-screen">
       <div className="text-5xl font-bold">Get in touch</div>
       <div className="w-1/2 ">
         <div className="flex flex-row justify-evenly pt-14 ">
@@ -24,7 +24,7 @@ function Touch1() {
         </div>
       </div>
       <div className="w-1/2 flex justify-center pt-8">
-        <div className="w-1/6">
+        <div className="xl:w-1/6 sm:w-1/3">
           <Buttons type="secondary" Name="Submit" />
         </div>
       </div>

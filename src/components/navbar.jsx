@@ -1,7 +1,17 @@
-import React from "react";
+import React, { useRef } from "react";
 import Link from "next/link";
 
 const Navbar = ({}) => {
+  const section1 = useRef();
+  const section2 = useRef();
+  const section3 = useRef();
+  const section4 = useRef();
+
+  const scrollHandeler = (elmref) => {
+    console.log(elmref.current);
+    window.scrollTo({ top: elmref.current.offsetTop, behavior: "smooth" });
+  };
+
   return (
     <div className="flex w-screen z-30 top-10 py-1 px-4 ">
       <div className="flex justify-start">
@@ -18,7 +28,7 @@ const Navbar = ({}) => {
                 <li>
                   <Link
                     className="inline-block no-underline hover:text-slate-500 font-medium text-lg py-2 px-4 lg:-ml-2"
-                    href="/Home"
+                    onClick={() => scrollHandeler(section1)}
                   >
                     Home
                   </Link>
@@ -27,7 +37,7 @@ const Navbar = ({}) => {
                 <li>
                   <Link
                     className="inline-block no-underline hover:text-slate-500 font-medium text-lg py-2 px-4 lg:-ml-2"
-                    href="/About"
+                    onClick={() => scrollHandeler(section2)}
                   >
                     About
                   </Link>
@@ -36,7 +46,7 @@ const Navbar = ({}) => {
                 <li>
                   <Link
                     className="inline-block no-underline hover:text-slate-500 font-medium text-lg py-2 px-4 lg:-ml-2"
-                    href="/login"
+                    onClick={() => scrollHandeler(section3)}
                   >
                     Projects
                   </Link>
@@ -45,7 +55,7 @@ const Navbar = ({}) => {
                 <li>
                   <Link
                     className="inline-block no-underline hover:text-slate-500 font-medium text-lg py-2 px-4 lg:-ml-2"
-                    href="/ApplyNow"
+                    onClick={() => scrollHandeler(section4)}
                   >
                     <b>Contact me</b>
                   </Link>
