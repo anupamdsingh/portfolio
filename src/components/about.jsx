@@ -17,7 +17,7 @@ function About() {
           emerging technologies, I enjoy solving complex problems and
           collaborating with teams to deliver high-quality web applications.
         </div>
-        <div className="flex flex-row pt-20 justify-evenly w-screen sm:flex-col lg:flex-row sm:gap-y-6">
+        <div className="xl:grid-cols-4 xl:pt-20 xl:flex justify-evenly w-screen sm:flex-col lg:flex-row sm:gap-y-6 grid grid-cols-1 gap-y-4 pt-10">
           <div className="text-center">
             <div className="flex justify-center">
               <svg

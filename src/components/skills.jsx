@@ -5,8 +5,8 @@ function Skills() {
     <div className="flex justify-center items-center flex-col pt-20 w-screen">
       <div className="font-bold text-5xl pb-10">Skills</div>
       <div className="flex flex-col text-5xl text-center text-stone-400 ">
-        <div className="flex flex-row justify-evenly sm:grid-rows-3">
-          <div>
+        <div className="xl:justify-evenly grid xl:grid-cols-6 sm:grid-cols-2 sm:gap-x-10 sm:gap-y-10 grid-cols-2 gap-y-4">
+          <div className="flex justify-center flex-col items-center">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +33,7 @@ function Skills() {
             </div>
             <div className="text-2xl font-semibold text-center">HTML</div>
           </div>
-          <div>
+          <div className="flex justify-center flex-col items-center">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +56,7 @@ function Skills() {
             <div className="text-2xl font-semibold text-center">CSS</div>
           </div>
 
-          <div>
+          <div className="flex justify-center flex-col items-center">
             <div className="flex justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +75,7 @@ function Skills() {
             <div className="text-2xl font-semibold text-center">Javascript</div>
           </div>
 
-          <div>
+          <div className="flex justify-center flex-col items-center">
             {" "}
             <div>
               <svg
@@ -94,7 +94,7 @@ function Skills() {
             </div>
             <div className="text-2xl font-semibold text-center">React</div>
           </div>
-          <div>
+          <div className="flex justify-center flex-col items-center">
             <div className="flex justify-center">
               <svg
                 height="96"
@@ -111,8 +111,7 @@ function Skills() {
             </div>
             <div className="text-2xl font-semibold text-center">Bootstrap</div>
           </div>
-          <div>
-            {" "}
+          <div className="flex justify-center flex-col items-center">
             <div>
               <svg
                 height="96"
@@ -146,8 +145,8 @@ function Skills() {
             <div className="text-2xl font-semibold text-center">Java</div>
           </div>
         </div>
-        <div className="flex flex-row gap-x-20 pt-8">
-          <div>
+        <div className="xl:justify-evenly grid xl:grid-cols-6 sm:grid-cols-2 sm:gap-x-10 sm:gap-y-10 grid-cols-2 gap-y-4">
+          <div className="flex justify-center flex-col items-center">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -207,8 +206,7 @@ function Skills() {
             <div className="text-2xl font-semibold text-center">django</div>
           </div>
 
-          <div>
-            {" "}
+          <div className="flex justify-center flex-col items-center">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -248,11 +246,11 @@ function Skills() {
                   fill="url(#b)"
                   d="M128.757 254.126c64.832 0 60.784-28.115 60.784-28.115l-.072-29.127H127.6v-8.745h86.441s41.486 4.705 41.486-60.712c0-65.416-36.21-63.096-36.21-63.096h-21.61v30.355s1.165 36.21-35.632 36.21h-61.362s-34.475-.557-34.475 33.32v56.013s-5.235 33.897 62.518 33.897zm34.114-19.586a11.12 11.12 0 0 1-11.13-11.13 11.12 11.12 0 0 1 11.13-11.131 11.12 11.12 0 0 1 11.13 11.13 11.12 11.12 0 0 1-11.13 11.13z"
                 ></path>
-              </svg>{" "}
+              </svg>
             </div>
             <div className="text-2xl font-semibold text-center">Python</div>
           </div>
-          <div>
+          <div className="flex justify-center flex-col items-center">
             <div className="flex justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -290,7 +288,7 @@ function Skills() {
             </div>
             <div className="text-2xl font-semibold text-center">C++</div>
           </div>
-          <div>
+          <div className="flex justify-center flex-col items-center">
             <div className="flex justify-center">
               <svg
                 height="96"
@@ -326,7 +324,7 @@ function Skills() {
             </div>
             <div className="text-2xl font-semibold text-center">PostgreSQL</div>
           </div>
-          <div>
+          <div className="flex justify-center flex-col items-center">
             <div className="flex justify-center">
               <svg
                 height="96"
@@ -353,8 +351,7 @@ function Skills() {
             <div className="text-2xl font-semibold text-center">Tailwind</div>
           </div>
 
-          <div>
-            {" "}
+          <div className="flex justify-center flex-col items-center">
             <div>
               <svg
                 height="96"

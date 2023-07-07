@@ -6,8 +6,8 @@ function Touch1() {
   return (
     <div className="flex justify-center items-center flex-col pt-20 pb-40 text-white w-screen">
       <div className="text-5xl font-bold">Get in touch</div>
-      <div className="w-1/2 ">
-        <div className="flex flex-row justify-evenly pt-14 ">
+      <div className="xl:w-1/2 w-screen flex justify-center flex-col">
+        <div className="flex flex-row justify-evenly pt-8 ">
           <TextInput type="text" placeholder="First name" />
           <TextInput type="text" placeholder="Last name" />
         </div>

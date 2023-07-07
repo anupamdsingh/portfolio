@@ -19,14 +19,14 @@ function Top() {
   };
 
   return (
-    <div className="flex items-center xl:h-screen justify-between pl-28 pr-12 sm:pt-28 xl:pt-0">
-      <div className=" w-2/5">
+    <div className="flex items-center xl:h-screen xl:justify-between xl:pl-28 justify-center xl:pr-12 xl:pt-0 h-screen flex-col-reverse xl:flex-row ">
+      <div className="xl:w-2/5 pl-10 pt-10">
         <div className="text-6xl font-bold pb-2 2xl:text-9xl">
           <div className="font-normal text-4xl 2xl:text-6xl pb-3">Hi,I am </div>
           अनुपम सिंह
         </div>
         <div className="text-2xl 2xl:text-4xl text-stone-500">Developer</div>
-        <div className="pt-5 flex xl:flex-row gap-x-3 sm:flex-col sm:w-80 2xl:w-3/4">
+        <div className="pt-5 flex xl:flex-row gap-x-3 flex-col w-80 2xl:w-3/4">
           <div className="w-1/3 font-medium" onClick={onButtonClick}>
             <Buttons type="secondary" Name="Download CV" />
           </div>
@@ -37,7 +37,7 @@ function Top() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center w-1/2">
+      <div className="xl:flex justify-center xl:w-1/2 pt-8 flex justify-center">
         <img
           className="h-9/12 w-9/12 rounded-full "
           src={

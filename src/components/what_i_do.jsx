@@ -3,7 +3,7 @@ function What() {
   return (
     <div className="flex justify-center items-center flex-col pt-20 w-screen">
       <div className="font-bold text-5xl text-white">What I Do</div>
-      <div className="flex flex-row justify-between gap-x-10 pt-16 px-32 sm:flex-col lg:flex-row sm:gap-y-6">
+      <div className="flex flex-col justify-between gap-x-10 pt-16 px-32 sm:flex-col lg:flex-row sm:gap-y-6 gap-y-4">
         <div className="h-52 bg-zinc-900 flex justify-center flex-col px-7 sm:w-full xl:w-1/4 ">
           <div>
             <svg
@@ -25,7 +25,7 @@ function What() {
           </div>
         </div>
 
-        <div className="w-1/4 h-52 bg-zinc-900 flex justify-center flex-col px-7 sm:w-full xl:w-1/4">
+        <div className="h-52 bg-zinc-900 flex justify-center flex-col px-7 sm:w-full xl:w-1/4 ">
           <div>
             <svg
               width="57"
@@ -46,7 +46,7 @@ function What() {
           </div>
         </div>
 
-        <div className="w-1/4 h-52 bg-zinc-900 flex justify-center flex-col px-7 sm:w-full xl:w-1/4">
+        <div className="h-52 bg-zinc-900 flex justify-center flex-col px-7 sm:w-full xl:w-1/4 ">
           <div>
             <svg
               width="45"
